@@ -1,13 +1,8 @@
-import React from 'react'
+import React from "react";
+import Pokemon from "./components/Pokemon";
 
-const App = () => {
-  return (
-    <div>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-    </div>
-  )
-}
+const App: React.FC = () => {
+  return <Pokemon />;
+};
 
-export default App
+export default App;
